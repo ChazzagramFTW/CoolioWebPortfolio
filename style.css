@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+:root {
+    line-height: 1.4;
+    --small: 10px;
+    --medium: 15px;
+    --large: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(9, 18, 31, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8d8d8d;
+    border-radius: 25px;
+    border: none;
+}
+
+html {
+    margin: 0;
+    background-image: url("assets/backdrop.png");
+    scroll-behavior: smooth;
+    height: 100vw;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    font-weight: 500;
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #E2711D;
+}
+
+.nav-icon {
+    height: 80%;
+    border-radius: var(--small);
+    box-shadow: #441C00 0px 0px 10px 0px;
+}
+
+.nav-button {
+    height: 40%;
+}
+
+#titles {
+    text-align: center;
+}
+
+#titles h1 {
+    font-size: 1.5rem;
+}
+
+#titles h2 {
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    padding: var(--small);
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex; 
+    flex-direction: column;
+}
+
+.this-is-me {
+    text-align: center;
+}
+
+.this-is-me-icon {
+    border-radius: var(--small);
+    box-shadow: #441C00 0px 0px 10px 0px;
+}
+
+.this-is-me h1 {
+    font-size: 2em;
+}
+
+.hobbies-areas, .study-areas {
+    box-shadow: #441C00 0px 0px 10px 0px;
+}
+
+.about-me ul {
+    padding-left: var(--large);
+}
+
+.box-style {
+    background-color: rgba(256, 256, 256, 0.8);
+    color: #441C00;
+    border-radius: var(--small);
+    border-color: #E2711D;
+    border-style: solid;
+    width: 100%;
+    margin: var(--large) 0;
+    padding: var(--small);
+}
+
+footer {
+    background-color: #E2711D;
+    padding: var(--small);
+    text-align: center;
+    font-size: var(--small);
+}
