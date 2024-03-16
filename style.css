@@ -12,26 +12,12 @@
     --large: 20px;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: rgba(9, 18, 31, 1);
-}
-
-::-webkit-scrollbar-thumb {
-    background: #8d8d8d;
-    border-radius: 25px;
-    border: none;
-}
 
 html {
     margin: 0;
     background-image: url("assets/backdrop.png");
     scroll-behavior: smooth;
-    height: 100vw;
-    width: 100vw;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,6 +79,7 @@ main {
 
 .this-is-me-icon {
     border-radius: var(--small);
+    width: 75%;
     box-shadow: #441C00 0px 0px 10px 0px;
 }
 
