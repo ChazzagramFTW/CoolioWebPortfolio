@@ -10,13 +10,28 @@
     --small: 10px;
     --medium: 15px;
     --large: 20px;
+    --skillsTextSize: 7rem;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(9, 18, 31, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8d8d8d;
+    border-radius: 25px;
+    border: none;
+}
 
 html {
     margin: 0;
     background-image: url("assets/backdrop.png");
     scroll-behavior: smooth;
+    height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,6 +119,30 @@ main {
     width: 100%;
     margin: var(--large) 0;
     padding: var(--small);
+}
+
+.experience {
+    text-align: center;
+}
+
+.experience-img {
+    width: 90%;
+    border-radius: var(--small);
+    box-shadow: #441C00 0px 0px 10px 0px;
+}
+
+.skills-img {
+    width: 15%;
+    border-radius: var(--small);
+}
+
+.read-more {
+    color: blue;
+    text-decoration: underline;
+}
+
+.more {
+    display: none;
 }
 
 footer {
